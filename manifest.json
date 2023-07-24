@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "twitter-X",
+  "version": "1.0",
+  "description": "switch back to birdie",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/home"],
+      "js": ["content.js"]
+    }
+  ]
+}
