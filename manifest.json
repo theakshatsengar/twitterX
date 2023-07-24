@@ -3,7 +3,6 @@
   "name": "twitter-X",
   "version": "1.0",
   "description": "switch back to birdie",
-  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["https://twitter.com/home"],
